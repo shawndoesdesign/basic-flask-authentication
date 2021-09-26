@@ -7,7 +7,7 @@ pip install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms em
 MacOS: ```
 pip3 install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator```
 # 🗡️ Routes
-This app requires the routes listed below:
+This app requires the routes listed below (They can be customized!):
 ```bash
 /
 /login/
