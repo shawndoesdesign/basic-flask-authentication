@@ -1,0 +1,23 @@
+.button {
+  border: solid 1px deeppink;
+  background: deeppink;
+  color: #fff;
+  padding: 9px 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+}
+
+.dbutton {
+  border: solid 1px deeppink;
+  background: deeppink;
+  color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+}

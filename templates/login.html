@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/buttons.css">
+    <link rel="stylesheet" href="../static/main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Authentication - Login Page</title>
+</head>
+<body>
+    <h1>Welcome back to Flask! Login below:</h1><br>
+
+    <form class="forms" method="post" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username }}
+        {{ form.password }}
+        {{ form.submit }}
+    </form><br>
+
+    <a class="button" href="{{url_for('register')}}">Don't have an account? Sign Up!</a>
+</body>
+</html>
