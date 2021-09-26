@@ -16,4 +16,9 @@ This app requires the routes listed below (They can be customized!):
 /register/
 /dashboard/
 /logout/
+```
+# 🌟 Demo
+You may find a live demo [by clicking here](https://basic-flask-auth-demo.shawn.pink). [Please keep in mind that the credentials you use to login on the demo are public!]
+
+
 
