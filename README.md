@@ -7,7 +7,9 @@ Windows: ```
 pip install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator```
 
 MacOS: ```
-pip3 install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator```
+pip3 install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator```,
+
+Alternatively, you can use `pip install -r requirements.txt` and install them that way if you are cloning the repo.
 # 🗡️ Routes
 This app requires the routes listed below (They can be customized!):
 ```bash
