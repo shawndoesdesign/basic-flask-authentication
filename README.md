@@ -1,26 +1,27 @@
-## 🔒 Flask Authentication 
-A basic Flask authentication template made to save time when working on bigger projects.
+## 🔒 Flask URL Shortener
+Basic NoDB Flask URL Shortener made to be used for people who don't want to make one, but want a customizable front end.
 # ✨ Dependencies  
-On Windows and MacOS, you will need sqlite3 if you plan on using built in database.
+On Windows and MacOS, you will need to install the dependincies below for the application to work.
 
 Windows: ```
-pip install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator```
+pip install flask flask_wtf wtforms```
 
 MacOS: ```
-pip3 install flask flask_sqlalchemy flask_login flask_bcrypt flask_wtf wtforms email_validator```,
+pip3 install flask flask_wtf wtforms```,
 
 Alternatively, you can use `pip install -r requirements.txt` and install them that way if you are cloning the repo.
 # 🗡️ Routes
 This app requires the routes listed below (They can be customized!):
 ```bash
 /
-/login/
-/register/
-/dashboard/
-/logout/
+/done/
+/eror/
+/404/
+/template/
+/{shortened url slugs}
 ```
 # 🌟 Demo
-You may find a live demo [by clicking here](https://basic-flask-auth-demo.shawn.pink). [Please keep in mind that the credentials you use to login on the demo are public!]
+You may find a live demo [by clicking here](https://basic-url-shortener.shawn.pink). [Please keep in mind any URL's shortened are public!]
 
 
 
